@@ -1,0 +1,9 @@
+{% extends 'first/base.html' %}
+{% load static %}
+{% block content %}
+<p>Hello world!</p>
+<img src="{% static 'first/test.png' %}" alt="test"/>
+<p>{{ current_date }}</p>
+<p>{{ current_date|date:"Y년 m월 d일 H시 i분 s" }}</p>
+<a href="{% url 'select' %}">시작하기</a>
+{% endblock %}

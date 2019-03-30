@@ -19,7 +19,8 @@ from django.urls import path, include
 from first import views
 
 urlpatterns = [
-    path('', include('first.urls')),
+    path('first/', include('first.urls')),
+    path('second/', include('second.urls')),
     path('admin/', admin.site.urls),
 
 ]

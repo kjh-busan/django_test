@@ -7,5 +7,5 @@ urlpatterns = [
     path('select/', views.select, name="select"),
     path('result/', views.result, name="result"),
 
-    path('select/<int:year>/')
+    # path('select/<int:year>/')
 ]
