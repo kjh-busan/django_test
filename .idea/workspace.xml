@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b43c266d-559d-42cf-88eb-259036a263e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/first/templates/first/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first/templates/first/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first/templates/first/result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first/templates/first/select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second/templates/second/confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second/templates/second/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second/templates/second/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/second/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/first/static/first/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/first/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/first/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstdjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstdjango/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstdjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstdjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/second/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second/templates/second/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/second/templates/second/create.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,11 +53,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/second/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="64" lean-forward="true" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+            <state relative-caret-position="456">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <folding>
+                <element signature="e#27#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/second/templates/second/create.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="57">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -162,10 +152,10 @@
         <option value="$PROJECT_DIR$/firstdjango/urls.py" />
         <option value="$PROJECT_DIR$/second/templates/second/list.html" />
         <option value="$PROJECT_DIR$/second/templates/second/confirm.html" />
-        <option value="$PROJECT_DIR$/second/templates/second/create.html" />
         <option value="$PROJECT_DIR$/second/urls.py" />
         <option value="$PROJECT_DIR$/second/views.py" />
         <option value="$PROJECT_DIR$/second/forms.py" />
+        <option value="$PROJECT_DIR$/second/templates/second/create.html" />
       </list>
     </option>
   </component>
@@ -412,13 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/second/templates/second/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/second/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -441,8 +424,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/second/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="64" lean-forward="true" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+        <state relative-caret-position="456">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#27#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/second/templates/second/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
