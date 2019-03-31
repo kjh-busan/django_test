@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b43c266d-559d-42cf-88eb-259036a263e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/third/templates/third/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third/templates/third/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third/templates/third/static/third/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/third/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstdjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstdjango/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstdjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/firstdjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third/templates/third/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/third/templates/third/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/third/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/third/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+            <state relative-caret-position="323">
+              <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -43,10 +38,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/third/templates/third/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="608">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#991#998#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,6 +130,7 @@
     <findStrings>
       <find>select</find>
       <find>this is titl</find>
+      <find>response = get_response(request)</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,8 +160,8 @@
         <option value="$PROJECT_DIR$/firstdjango/urls.py" />
         <option value="$PROJECT_DIR$/firstdjango/settings.py" />
         <option value="$PROJECT_DIR$/third/models.py" />
-        <option value="$PROJECT_DIR$/third/views.py" />
         <option value="$PROJECT_DIR$/third/templates/third/base.html" />
+        <option value="$PROJECT_DIR$/third/views.py" />
         <option value="$PROJECT_DIR$/third/templates/third/list.html" />
       </list>
     </option>
@@ -481,16 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/third/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/third/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -511,12 +499,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/third/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/third/templates/third/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="608">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#991#998#1" expanded="true" />
           </folding>
         </state>
       </provider>
