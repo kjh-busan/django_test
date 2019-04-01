@@ -54,11 +54,15 @@ def detail(request, id):
     return HttpResponseRedirect('/third/list/')
 
 
-def delete(request):
-    if 'id' in request.GET:
-        item = get_object_or_404(Restaurant, pk=request.GET.get('id'))
-        item.delete()
-    return HttpResponseRedirect('/third/list/')
+def delete(request, id):
+    item = get_object_or_404(Restaurant, pk=id)
+    if request.method == 'POST' and 'password' in request.POST:
+        if item.password == request.POST.get('password'):
+            item.delete()
+            return redirect('list')
+        return redirect('restaurant-detail', id=id)
+    return render(request, 'third/delete.html', {'item': item})
+
 
 def review_create(request, restaurant_id):
     if request.method == 'POST':
